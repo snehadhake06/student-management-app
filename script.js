@@ -13,5 +13,7 @@ function addStudent() {
 
     }
 }
+
+document.getElementById("count").innerText = document.getElementById("studentList").children.length;
 li.innerHTML =
 name + ' <button onclick="this.parentElement.remove()">Delete</button>';
